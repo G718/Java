@@ -1,0 +1,37 @@
+import java.util.*;
+public class Test11 {
+
+	public static void main(String[] args) {
+		
+		int i=0,j,k=0,l=1;//l£ºµ¥´ÊÊý
+		String s;
+		char c;
+		char d;
+		String a="and";
+		String f="for";
+		String t="the";
+		String L[]=new String[10];
+		Scanner scanner=new Scanner(System.in);
+		s=scanner.nextLine();
+		for(i=0;i<s.length();i++){
+			c=s.charAt(i);
+			if(c!=32){
+				k++;
+//				for(j=0;j<a.length();j++){
+//					d=a.charAt(j);
+//					if(d==c){
+//						
+//					}
+//				}
+			}else{
+				l++;
+				if(k>2){
+					L[l-1]=s.substring((i-k),(i-k+1));
+				}
+				k=0;
+			}
+		}
+		
+	}
+	
+}

@@ -1,0 +1,23 @@
+import java.util.*;
+public class Test03 {
+
+	public static void main(String[] args) {
+		
+		int i=0,j,k;
+		String s;
+		char c;
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("ÊäÈëÒ»´®×Ö·û£¬ÊäÈë0Í£Ö¹");
+		s=scanner.next();
+		while(i<s.length()){
+			c=s.charAt(i);
+			if(c==(char)0){
+				break;
+			}
+			System.out.print(c);
+		}
+		
+		
+	}
+	
+}

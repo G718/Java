@@ -1,0 +1,13 @@
+
+public class Test03 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int x=65.0*(9/13+2/5);
+		System.out.print(x);
+
+	}
+
+}

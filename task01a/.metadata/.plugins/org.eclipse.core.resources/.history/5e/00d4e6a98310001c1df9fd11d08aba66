@@ -1,0 +1,11 @@
+import java.util.*;
+public class Test01j {
+	public static void main(String[] args) {
+		double kilo=50,per=0.98,w,c=0.2;
+		w=kilo*per/c;
+		w-=50;
+		System.out.println(w);
+		
+	}
+
+}

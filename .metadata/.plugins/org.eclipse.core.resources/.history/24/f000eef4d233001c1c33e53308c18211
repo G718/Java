@@ -1,0 +1,14 @@
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
+public class Test14 {
+
+	public static void main(String[] args) throws ParseException {
+		
+		String s="2021年10月11日";
+		SimpleDateFormat sdf=new SimpleDateFormat("yyyy年MM月dd日");
+		Date date=sdf.parse(s);
+		System.out.println(date);
+	}
+	
+}

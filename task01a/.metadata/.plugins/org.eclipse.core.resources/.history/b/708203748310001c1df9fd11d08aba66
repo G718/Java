@@ -1,0 +1,11 @@
+import java.util.*;
+public class Test01j {
+	public static void main(String[] args) {
+		double k=50,p=0.98,w,c=0.2;
+		w=k*p/c;
+		w-=50;
+		System.out.println(w);
+		
+	}
+
+}

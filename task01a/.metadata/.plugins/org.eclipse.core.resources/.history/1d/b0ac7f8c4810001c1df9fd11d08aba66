@@ -1,0 +1,12 @@
+import java.util.*;
+public class Test01i {
+	public static void main(String[] args) {
+		double f,c;
+		char s[]=new char [5];
+		Scanner sc=new Scanner(System.in);
+		System.out.print("ÇëÊäÈëÎÂ¶È");
+		s[]=sc.nextLine();
+
+	}
+
+}

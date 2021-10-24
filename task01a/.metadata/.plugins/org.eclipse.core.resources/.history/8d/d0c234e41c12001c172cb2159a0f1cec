@@ -1,0 +1,11 @@
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		//尽可能大的整数
+		int x=99999999999999999999999999;
+		System.out.println(x);
+
+	}
+
+}

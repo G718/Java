@@ -1,0 +1,14 @@
+public class Test08 {
+
+	public static void main(String[] args) {
+		
+		String s="2009-3-27,买猪肉1.5kg，单价20元/kg，买与2.8kg，单价10元/kg";
+		String s1=s.substring(0,9);
+		String s2=s.substring(13,16);
+		String s3=s.substring(21,23);
+		double w2=Double.parseDouble(s2);
+		System.out.println(w2+s1+s3);
+		
+	}
+	
+}

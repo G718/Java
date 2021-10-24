@@ -1,0 +1,30 @@
+import java.util.*;
+public class Test02 {
+
+	public static void main(String[] args) {
+		
+		int i,j=0,k=0;
+		char c,e;
+		String s="11cfbks34cdf2ghacdf11";
+		String q="cdf";
+		for(i=0;i<s.length();i++){
+			c=s.charAt(i);
+			System.out.print("\n"+c+":");
+			for(;j<q.length();j++){
+				e=q.charAt(j);
+				System.out.print((char)(e)+", ");
+				if(c==e){
+					break;
+				}
+				continue;
+			}
+			if(j>1){
+				k++;
+			}
+			j=0;
+		}
+		System.out.println(q+"出现次数为："+k);
+		
+	}
+	
+}

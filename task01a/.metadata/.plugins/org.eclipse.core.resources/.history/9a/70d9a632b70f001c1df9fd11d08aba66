@@ -1,0 +1,40 @@
+
+public class Test01 {
+	public static void main(String[] args) {
+		double x=0.0;
+		//1.
+		x=(4.0/5.0-3.0/7.0)*35.0;
+		System.out.println("1. "+String.format("%.2f", x));
+		//2.
+		x=2.0+6.0/11.0-(6.0/11.0+5.0/12.0);
+		System.out.println("2. "+String.format("%.2f", x));
+		//3.
+		x=65.0*(9.0/13.0+2.0/5.0);
+		System.out.println("3. "+String.format("%.2f", x));
+		//4.
+		x=2.0+6.0/11.0-(6.0/11.0-5.0/12.0);
+		System.out.println("4. "+String.format("%.2f", x));
+		//5.
+		x=0.2*2.0/13.0+1.0/5.0*11.0/13.0;
+		System.out.println("5. "+String.format("%.2f", x));
+		//6.
+		x=4.0/5.0*(1.0+5.0/17.0)-0.8*5.0/17.0;
+		System.out.println("6. "+String.format("%.2f", x));
+		//7.
+		x=4.3*0.8+0.8+4.7*0.8;
+		System.out.println("7. "+String.format("%.2f", x));
+		//8.
+		x=5.0/8.0*0.72/3.0/4.0;
+		System.out.println("8. "+x);
+		//9.
+		x=4.38-1.56+0.62-0.44;
+		System.out.println("9. "+String.format("%.2f", x));
+		//10.
+		x=0.125*32*2.5;
+		System.out.println("10. "+String.format("%.2f", x));
+		//11.
+		x=18.0-(1.0/15.0+1.0/21.0)*105.0;
+		System.out.println("11. "+String.format("%.2f", x));
+	}
+
+}

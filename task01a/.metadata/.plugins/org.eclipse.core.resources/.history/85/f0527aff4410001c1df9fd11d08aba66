@@ -1,0 +1,15 @@
+import java.util.*;
+public class Test01f {
+	public static void main(String[] args) {
+		double r,h,s,v;
+		Scanner sc=new Scanner(System.in);
+		System.out.print("请输入圆柱体底面半径：");
+		r=sc.nextDouble();
+		System.out.print("请输入圆柱体的高：");
+		h=sc.nextDouble();
+		s=2*Math.PI*Math.pow(r, 2)+2*Math.PI*r*h;
+		System.out.println(s);
+
+	}
+
+}

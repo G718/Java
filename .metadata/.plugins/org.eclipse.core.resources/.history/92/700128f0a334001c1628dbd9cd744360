@@ -1,0 +1,19 @@
+
+public class Test10 {
+
+	public static void main(String[] args) {
+		
+		String bcity="南京";
+		String ecity="南昌";
+		String train="k505次";
+		String sale="南京";
+		String time="201101182121";
+		String carriage="10";
+		String pos="087";
+		int  price=82;
+		String type="新空调硬座";
+		System.out.print(sale+"\n"+bcity+train+ecity);
+		
+	}
+	
+}

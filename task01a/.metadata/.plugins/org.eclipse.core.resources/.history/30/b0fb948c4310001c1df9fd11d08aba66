@@ -1,0 +1,18 @@
+import java.util.*;
+public class Test01e {
+	public static void main(String[] args) {
+		double s,x,y,z;
+		Scanner sc=new Scanner(System.in);
+		System.out.print("请输入第一条边:");
+		x=sc.nextDouble();
+		System.out.print("请输入第二条边:");
+		y=sc.nextDouble();
+		System.out.print("请输入第三条边:");
+		z=sc.nextDouble();
+		s=Math.sqrt((x+y+z)*(x+y)*(x+z)*(y+z));
+		System.out.println(s);
+		
+
+	}
+
+}

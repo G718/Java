@@ -1,0 +1,17 @@
+
+public class Test01 {
+
+	public static void main(String[] args) {
+
+		double v0=10,t0=10,g=9.8,s1,s2,v,t1,h;
+		t1=v0/g;
+		h=v0*t1-0.5*g*t1*t1;
+		s1=1./2*g*(t0-t1)*(t0-t1)-h;
+		System.out.println("位移为"+s1+"m");
+		
+		System.out.println("位移为"+t1+"m");
+		
+		
+	}
+
+}

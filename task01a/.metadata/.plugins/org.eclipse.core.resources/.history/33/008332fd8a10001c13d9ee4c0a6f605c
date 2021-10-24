@@ -1,0 +1,13 @@
+
+public class Test01 {
+
+	public static void main(String[] args) {
+
+		double v0=10,t=10,g=9.8,s1,s2,v;
+		s1=v0*t-0.5*g*t*t;
+		
+		System.out.println("Î»ÒÆÎª"+s1+"m");
+		
+	}
+
+}

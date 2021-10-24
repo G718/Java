@@ -1,0 +1,9 @@
+
+public class Test01 {
+	public static void main(String[] args) {
+		//尽可能大的整数
+		while(true)
+		System.out.println("9");
+		
+	}
+}

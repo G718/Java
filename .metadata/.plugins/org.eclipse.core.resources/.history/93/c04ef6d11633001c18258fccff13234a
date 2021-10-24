@@ -1,0 +1,19 @@
+import java.util.*;
+public class Test05 {
+
+	public static void main(String[] args) {
+		
+		int i=0;
+		String s;
+		char c;
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("ÊäÈëÒ»¾äÓ¢ÎÄ");
+		s=scanner.nextLine();
+		while(i<s.length()){
+			c=s.charAt(i++);
+			
+		}
+		
+	}
+	
+}

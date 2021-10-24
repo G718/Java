@@ -1,0 +1,18 @@
+import java.util.*;
+import java.text.*;
+public class Test09 {
+
+	public static void main(String[] args) throws ParseException {
+		
+		String s="2021-10-11 21:21:00";
+		Date date=new Date();
+		System.out.println(date);
+		System.out.println();
+		SimpleDateFormat sdf=new SimpleDateFormat("yyyyÄêMMÔÂddÈÕhh:mm:ss");
+		date =sdf.parse(s);
+		String day =sdf.format(date);
+		System.out.println(day);
+		
+	}
+	
+}
